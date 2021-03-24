@@ -1,0 +1,67 @@
+html{
+	
+  background-color:#eaf7f8;
+}
+.heading {
+	border-style: solid;
+	border: auto;
+	border-color:#ADD8E6;
+	background-color: #B0E0E6;
+	text-align: center;
+}
+
+	#round {
+	  border-radius: 25px;
+	  background: #B0E0E6;
+	  padding: 15px; 
+	  height: auto;  
+	}
+
+	p{
+	font-family:Tahoma;
+	color:black;
+	word-spacing:8px;
+	font-size: 1.1875em;
+	text-align:justify;
+	line-height: 180%;
+	}
+	
+	
+	h2{
+	font-family: Times, Georgia, serif;
+	color:black;
+	text-transform:uppercase;
+	word-spacing: 3px;
+	letter-spacing: 3px;
+	text-align:left;
+	line-height: 125%;
+	
+	}
+	
+	h3{
+	font-family:Garamond, Georgia, serif;
+	color:black;
+	text-transform:uppercase;
+	word-spacing: 3px;
+	letter-spacing: 5px;
+	text-align:center;
+	}
+	
+	body{
+	font-family:Tahoma;
+	color:black;
+	word-spacing:5px;
+	font-size: 1.1875em;
+	text-align:left;
+	line-height: 180%;
+	}
+	img{
+		width:160px;
+		height:150px;
+		padding:10px;
+	}
+	.right{
+		float:right;
+	}
+
+	
