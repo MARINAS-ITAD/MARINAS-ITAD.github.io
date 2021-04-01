@@ -9,13 +9,12 @@
 		font-family:Verdana, "Sans Serif";
 		color:white;
 		text-decoration:none;
-		background-color:gray;
 		padding: 0.6em;
 			
 	}
 	.icon-bar {
 		width: 100%;
-		background-color: #555;
+		background-color: blue;
 	}
 
 	.icon-bar a {
@@ -33,9 +32,9 @@
 	}
 
 	.icon-bar a:focus{
-		background-color:black;
-		color:cyan;
-		border:3px outset #89CFF0;
+		background-color:powderblue;
+		color:navy;
+		border:3px outset navy;
 	}
 
 	.active {
@@ -43,12 +42,6 @@
 		color:white;
 	}
 	
-	.myDiv {
-		border: 5px outset navy;
-		background-color: powderblue;
-		text-align: center;
-	}
-
 	.footer {
 		position: fixed;
 		left: 0;
@@ -59,11 +52,84 @@
 		text-align: center;
 		font-family: verdana;
 		}
-	h2{
-	margin:50px;
-}	
 		
-				
+	.div{
+		text-align: center;
+	}	
+
+	.box1{
+		margin: 5px;
+		border-radius: 25px;
+		position: center;
+	}
+	.box2{
+		margin: 5px;
+		border-radius: 25px;
+		position: center;
+	}
+	.box3{
+		margin: 5px;
+		border-radius: 25px;
+		position: center;
+	}
+	.box4{
+		margin: 5px;
+		border-radius: 25px;
+		position: center;
+	}
+	.box5{
+		margin: 5px;
+		border-radius: 25px;
+		position: center;
+	}
+	img:hover.box1{
+		box-shadow: 5px 5px 15px 5px #ED9121;
+		border-radius: 25px;
+	}
+	img:hover.box2{
+		box-shadow: 5px 5px 15px 5px red;
+		border-radius: 25px;
+	}
+	img:hover.box3{
+		box-shadow: 5px 5px 15px 5px blue;
+		border-radius: 25px;
+	}
+	img:hover.box4{
+		box-shadow: 5px 5px 15px 5px green;
+		border-radius: 25px;
+	}
+	img:hover.box5{
+		box-shadow: 5px 5px 15px 5px yellow;
+		border-radius: 25px;
+	}
+	
+	.myDiv {
+		border-radius: 25px;
+		background-color: powderblue;
+		text-align: center;
+	}
+	
+	h1{
+		text-align:center;
+		font-family: Garamond, Georgia, serif;
+		font-size: 3.5em;
+		background-color: #000000;
+		color:white;
+		text-transform:uppercase;
+		word-spacing:25px;
+		text-shadow: 3px 2.5px red;
+		border-radius: 25px;		
+	}
+
+	h2{	
+		text-align:center;
+		font-family: Garamond, Georgia, serif;
+		font-size: 2.5em;
+		color:black;
+		text-transform:uppercase;
+		word-spacing:5px;
+	}
+
     </style>
 </head>
 <body>
@@ -72,31 +138,170 @@
 	
 	<div class="icon-bar">
 	
-		<a href="MyFilm.html" target="sameWindow" title="Sit Back and Relax">MY KIND OF FILM</a>
-		<a href="MyBeatPage.html" target="sameWindow" title="Give Me Some Beat">MY BEAT</a>
-		<a href="resume.html" target="sameWindow" title="">RESUME</a>
-		<a href="AboutMePage1.html" target="sameWindow" title="Journey of Myself">ABOUT ME</a>
+		<a style="color:black;" href="MyFilm.html" target="sameWindow" title="Sit Back and Relax">MY KIND OF FILM</a>
+		<a style="color:black;" href="MyBeatPage.html" target="sameWindow" title="Give Me Some Beat">MY BEAT</a>
+		<a style="color:black;" href="resume.html" target="sameWindow" title="">RESUME</a>
+		<a style="color:black;" href="AboutMePage1.html" target="sameWindow" title="Journey of Myself">ABOUT ME</a>
 	</div>
 	<br>
 	<br>
 	<br>
-	<img src="MARIÑAS_MEDIA_ITAD/banner.png" alt="Who You Zairyl Mariñas" width="1350" height="500">
+	<image src="MARIÑAS_MEDIA_ITAD/banner.png" alt="Who You Zairyl Mariñas" width="1350" height="500">
 	<br>
 	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<div class="myDiv">
-		<h2>Hi! Welcome to my page, I'm here to share something about me way back then. You can also listen to my favorite music,
-		and watch a little glimpse of my favorite tv show or movie! Enjoy buddy! 
-		<br><br>Just scroll up and visit my other pages.</h2>
 	
+	<div class="myDiv">
+	<br>
+	<div class="div">
+				
+		<img src="https://www.asustor.com/images/application/photo_gallery/PhotoGallery.png" width="100" alt="" class="rounded-corners" /><h2 id="gallery">Photo Gallery</h2>
+				
+		<a href="#famPic">
+			<img src="MARIÑAS_MEDIA_ITAD/famPic.jpg" width="150" alt="" title="Family Pictures" class="box3" />
+		</a>
+				
+		<a href="#colPic">
+			<img src="MARIÑAS_MEDIA_ITAD/colPic.png" width="155" height="145" alt="" title="College Friends Pictures" class="box2"/>
+		</a>
+				
+		<a href="#album">
+			<img src="MARIÑAS_MEDIA_ITAD/musicPic.jpg" width="155" height="145" alt="" title="Music Poster Album Pictures"class="box1"/>
+		</a>
+				
+		<a href="#film">
+			<img src="MARIÑAS_MEDIA_ITAD/filmPic.jpg" width ="155" height="145"  alt="" title="Movie or Film Pictures" class="box5"/>
+		</a>
+				
+		<a href="#ofy">
+			<img src="MARIÑAS_MEDIA_ITAD/ofyPic.jpg" width ="155" height="145"  alt="" title="My Orchestra Pictures" class="box4"/>
+		</a>
+		<br>
+		<br>
+				
+		<h1 id="famPic">Family Pictures</h1>
+		<a href="MARIÑAS_MEDIA_ITAD/fam1.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/fam1.jpg" width ="280" height="170"  alt="Family Picture" title="2017 Family Picture wearing Doha T-shirts" class="box3"/></a>
+	
+		<a href="MARIÑAS_MEDIA_ITAD/fam2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/fam2.jpg" width ="190" height="250"  alt="Family Picture" title="Family PIcture during Completion" class="box3"/></a>
+			
+		<a href="MARIÑAS_MEDIA_ITAD/fam3.jpeg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/fam3.jpeg" width ="230" height="170"  alt="Family Picture" title="Family Picture during Performance" class="box3"/></a>
+		<br>
+		<a href="MARIÑAS_MEDIA_ITAD/fam4.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/fam4.jpg" width ="200" height="170"  alt="Family Picture" title="2020 New Year's Family Picture wearing Blue" class="box3"/></a>
+		
+		<a href="MARIÑAS_MEDIA_ITAD/fam5.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/fam5.jpg"  width ="230" height="170"  alt="Family Picture" title="2019 New Year's Family Picture wearing Pink" class="box3"/></a>
+				
+		<a href="MARIÑAS_MEDIA_ITAD/fam6.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/fam6.jpg" width ="230" height="170"  alt="Family Picture" title="Family Picture with Mama Mary" class="box3"/></a>
+			
+		<a href="MARIÑAS_MEDIA_ITAD/fam7.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/fam7.jpg" width ="230" height="170"  alt="Family Picture" title="Family Picture with our Dog " class="box3"/></a>
+				
+		<h1 id="colPic">College Friends Pictures</h1>
+		<a href="MARIÑAS_MEDIA_ITAD/col1.jpeg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/col1.jpeg" width ="220" height="170"  alt="College Friends Picture" title="Picture near Manila Cathedral" class="box2"/></a>
+	
+		<a href="MARIÑAS_MEDIA_ITAD/col2.jpeg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/col2.jpeg" width ="220" height="170"  alt="College Friends Picture" title="Picture with my friends inside their Dorm" class="box2"/></a>
+			
+		<a href="MARIÑAS_MEDIA_ITAD/col3.jpeg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/col3.jpeg" width ="220" height="170"  alt="College Friends Picture" title="Picture with friends eating in Inasal" class="box2"/></a>
+				
+		<a href="MARIÑAS_MEDIA_ITAD/col4.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/col4.jpg" width ="220" height="170"  alt="College Friends Picture" title="Picture with friends eating in Jollibee" class="box2"/></a>
+		<br>
+		<a href="MARIÑAS_MEDIA_ITAD/col5.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/col5.jpg" width ="220" height="170"  alt="College Friends Picture" title="Picture with friends eating near PUP" class="box2"/></a>
+		
+		<a href="MARIÑAS_MEDIA_ITAD/col6.jpeg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/col6.jpeg" width ="300" height="170"  alt="College Friends Picture" title="Picture with friends eating in Bulalo World" class="box2"/></a>
+				
+		<a href="MARIÑAS_MEDIA_ITAD/col7.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/col7.jpg" width ="220" height="170"  alt="College Friends Picture" title="Picture with friends before Seminar" class="box2"/></a>
+			
+		<h1 id="album">Music Poster Albums</h1>
+		<a href="MARIÑAS_MEDIA_ITAD/blackpink2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/blackpink2.jpg" width ="160" height="240"  alt="blackpink poster" title="Lovesick Girls Album Poster" class="box1"/></a>
+	
+		<a href="MARIÑAS_MEDIA_ITAD/twice2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/twice2.jpg" width ="160" height="240"  alt="twice poster" title="Fancy Album Poster" class="box1"/></a>
+			
+		<a href="MARIÑAS_MEDIA_ITAD/redvelvet2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/redvelvet2.jpg" width ="190" height="240"  alt="redvelvet poster" title="Psycho Album Poster" class="box1"/></a>
+				
+		<a href="MARIÑAS_MEDIA_ITAD/itzy2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/itzy2.jpg" width ="230" height="170"  alt="itzy poster" title="Not Shy Album Poster" class="box1"/></a>
+		
+		<a href="MARIÑAS_MEDIA_ITAD/hanson2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/hanson2.jpg" width ="200" height="200"  alt="hanson poster" title="MMMbop Album Poster" class="box1"/></a>
+		<br>
+				
+		<a href="MARIÑAS_MEDIA_ITAD/coldP3.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/coldP3.jpg" width ="160" height="240"  alt="coldplay poster" title="Viva La Vida Album Poster" class="box1"/></a>
+			
+		<a href="MARIÑAS_MEDIA_ITAD/bj2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/bj2.jpg" width ="200" height="230"  alt="river of dreams" title="River of Dreams Poster" class="box1"/></a>
+			
+		<a href="MARIÑAS_MEDIA_ITAD/bach2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/bach2.jpg" width ="200" height="200"  alt="bach poster" title="Toccata and Fugue Poster" class="box1"/></a>
+		
+		<a href="MARIÑAS_MEDIA_ITAD/ludwig2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/ludwig2.jpg" width ="160" height="220"  alt="fur elise" title="Fur Elise Poster" class="box1"/></a>
+		
+		<a href="MARIÑAS_MEDIA_ITAD/mozart2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/mozart2.jpg" width ="200" height="200"  alt="figaro" title="Marriage of Figaro Poster" class="box1"/></a>
+			
+		<h1 id="film">Film or Movie Pictures</h1>
+		<a href="MARIÑAS_MEDIA_ITAD/m1.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/m1.jpg" width ="180" height="250"  alt="call of the wind" title="Call of the Wind Poster" class="box5"/></a>
+	
+		<a href="MARIÑAS_MEDIA_ITAD/m2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/m2.jpg" width ="180" height="250"  alt="journey to the center of the earth" title="Journey to the Center of the Earth Poster" class="box5"/></a>
+			
+		<a href="MARIÑAS_MEDIA_ITAD/f1.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/f1.jpg" width ="180" height="250"  alt="america's top dog" title="America's Top Dog Poster" class="box5"/></a>
+				
+		<a href="MARIÑAS_MEDIA_ITAD/f2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/f2.jpg" width ="180" height="250"  alt="ninja warrior" title="American Ninja Warrior" class="box5"/></a>
+		<br>
+		<a href="MARIÑAS_MEDIA_ITAD/m3.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/m3.jpg" width ="180" height="250"  alt="hatchi" title="Hatchi Dog" class="box5"/></a>
+		
+		<a href="MARIÑAS_MEDIA_ITAD/m4.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/m4.jpg" width ="180" height="250"  alt="hotel for dogs" title="Hotel for Dogs" class="box5"/></a>
+				
+		<a href="MARIÑAS_MEDIA_ITAD/m5.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/m5.jpg" width ="180" height="250"  alt="korean show" title="KPOP Running Man" class="box5"/></a>
+			
+		<h1 id="ofy">Orchestra Pictures</h1>
+		<a href="MARIÑAS_MEDIA_ITAD/ofy1.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/ofy1.jpg" width ="220" height="170"  alt="orchestra picture" title="Wearing blue long sleeves with Instrument" class="box4"/></a>
+	
+		<a href="MARIÑAS_MEDIA_ITAD/ofy2.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/ofy2.jpg" width ="210" height="220"  alt="orchestra picture" title="Wearing blue and yellow t-shirts with Instrument" class="box4"/></a>
+			
+		<a href="MARIÑAS_MEDIA_ITAD/ofy3.jpeg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/ofy3.jpeg" width ="220" height="170"  alt="orchestra picture" title="Soundcheck Picture" class="box4"/></a>
+		<br>
+		<a href="MARIÑAS_MEDIA_ITAD/ofy4.jpg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/ofy4.jpg" width ="210" height="170"  alt="orchestra picture" title="" class="box4"/></a>
+		
+		<a href="MARIÑAS_MEDIA_ITAD/ofy5.jpeg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/ofy5.jpeg" width ="220" height="170"  alt="orchestra picture" title="Image of Sunset with Trees" class="box4"/></a>
+				
+		<a href="MARIÑAS_MEDIA_ITAD/ofy6.jpeg" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/ofy6.jpeg" width ="170" height="220"  alt="orchestra picture" title="Picture with Maestro wearing uniform Jacket" class="box4"/></a>
+			
+		<a href="MARIÑAS_MEDIA_ITAD/ofy7.png" target="winImage">
+		<img src="MARIÑAS_MEDIA_ITAD/ofy7.png" width ="210" height="220"  alt="orchestra picture" title="Orchestra Performance Picture in Formal Attire" class="box4"/></a>
+			
 	</div>
+	<br>
+	</div>
+	
 	<br>
 	<br>
 	<br>
