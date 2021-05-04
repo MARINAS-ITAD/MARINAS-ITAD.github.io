@@ -1,0 +1,73 @@
+body{
+		font-family: Tahoma;
+		color: black;
+		font-size: 1.125em;
+	}
+
+thead tr{
+			background-color: #990F02;
+		}
+		
+td {
+		border-bottom: 1px solid #ff3838;
+		border-collapse: collapse;
+		padding: 15px;
+		}
+th{
+		border-bottom: 1px solid #ff3838;
+		border-collapse: collapse;
+		padding: 15px;
+		font-size: 1.5em;
+		background-color:red;
+		color: white;
+		}
+
+textarea{
+			resize: none;
+		}
+		
+input[type=submit]{
+			width: 100%;
+			background-color: #e3242b;
+			color: white;
+			padding: 14px 20px;
+			margin:8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-family: Verdana;
+			font-size: 1.125em;
+		}
+		
+input[type=submit]:hover{
+			background-color: yellow;
+			color: black;
+		}
+		
+input[typer=text], textarea, select{
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+	input[type=reset]{
+			width: 100%;
+			background-color: #e3242b;
+			color: white;
+			padding: 14px 20px;
+			margin:8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-family: Verdana;
+			font-size: 1.125em;
+		}
+input[type=reset]:hover{
+			background-color: yellow;
+			color: black;
+		}
+	
+		
+		

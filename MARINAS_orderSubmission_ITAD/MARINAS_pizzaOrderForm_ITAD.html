@@ -1,0 +1,153 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ORDER FORM</title>
+    <style type="text/css">
+	
+		table{
+			background-color: white;
+			border: 5px solid #B90E0A;
+			border-collapse: collapse;
+			margin: 8px auto;
+		}
+		
+    </style>
+</head>
+<link rel="stylesheet" type="text/css" href="MARINAS_IMAGES_ITAD/form.css">
+<body background="MARINAS_IMAGES_ITAD/bg.jpg">
+    <link rel="stylesheet" type="text/css">
+    <!--MARINAS, ZAIRYL-->
+    <!--05/04/21-->
+	<table>
+		<form>
+		<thead>
+			<tr>
+				<th colspan="2">PIZZA ORDER FORM</th>
+				
+			</tr>
+		</thead>
+		
+		<tbody>
+		
+			<td><label for="details">Customer Details:</label></td>
+				<td>
+					<label>Full Name:</label> <input type="text" name="fname" placeholder=" Type your name here" size=24><br><br>&nbsp;&nbsp;
+					<label>Address:</label> <input type="text" name="address" placeholder=" Complete Address" size=24><br><br>
+					<label for="phone">Contact Number:</label> <input type="tel" id="phone" name="phone" placeholder=" 09** *** ****" size=17><br><br>
+					<label>Email Address:</label> <input type="email" id="email" name="email" size=20><br><br>
+					<label for="location">How to get to your place:</label><br>
+					<textarea id="loc" name="location" rows="3" cols="30"></textarea>
+				</td>
+				</td>
+			</tr>
+			
+			<tr>
+			
+				<td><label for="burger">BURGER:</label></td>
+				<td>
+					<input type="radio" id="burger" name="burger" value="single">
+					<label for="burger">Single Patty</label><br>
+					<input type="radio" id="burger" name="burger" value="double">
+					<label for="burger">Double Patty</label><br>
+					<br>
+					<input type="checkbox" id="burger" name="burger" value="cheese">
+					<label for="burger">With Cheesse</label><br>
+					<input type="checkbox" id="burger" name="burger" value="coleslaw">
+					<label for="burger">Coleslaw</label><br>
+					<input type="checkbox" id="burger" name="burger" value="tomato">
+					<label for="burger">Tomato</label><br>
+					<input type="checkbox" id="burger" name="burger" value="onion">
+					<label for="burger">Onion</label><br>
+					<input type="checkbox" id="burger" name="burger" value="cucumber">
+					<label for="burger">Cucumber</label><br>
+					<input type="checkbox" id="burger" name="burger" value="bacon">
+					<label for="burger">Bacon</label><br>
+					<br>
+					<label for="Buns">Choice of Bun:</label><br><br>
+					<input type="radio" id="burger" name="burger" value="white">
+					<label for="burger">White Bun</label><br>
+					<input type="radio" id="burger" name="burger" value="wheat">
+					<label for="burger">Wheat Bun</label><br>
+				</td>
+				
+			<tr>
+				<td><label for="pasta">PASTA:</td>
+				<td>
+					<select name="pasta" id="pasta" size="1">
+						<option value="carbonara">Carbonara</option>
+						<option value="pesto">Pesto</option>
+						<option value="spaghetti">Spaghetti</option>
+						</select><br>
+						<input type="checkbox" id="pasta" name="pasta" value="cheese">
+						<label for="pasta">Extra Cheese</label><br>
+						<input type="checkbox" id="pasta" name="pasta" value="sauce">
+						<label for="pasta">Extra Sauce</label><br><br>
+						<label for="quantity">Quantity (per box):</label>
+						<input type="number" id="quantity" name="quantity" min="1" max="10">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="fries">FRENCH FRIES:</td>
+				<td>
+					<select name="fries" id="fries" size="1">
+						<option value="small">Small</option>
+						<option value="medium">Medium</option>
+						<option value="large">Large</option>
+						</select><br>
+						<input type="radio" id="fries" name="flavor" value="bbq">
+						<label for="fries">Barbeque</label><br>
+						<input type="radio" id="fries" name="flavor" value="cheese">
+						<label for="fries">Cheese</label><br>
+						<input type="radio" id="fries" name="flavor" value="sour">
+						<label for="fries">Sour Cream</label><br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="drink">BEVERAGE:</td>
+				<td>
+						<input type="radio" id="drink" name="drink" value="coke">
+						<label for="drink">Coke</label><br>
+						<input type="radio" id="drink" name="drink" value="sprite">
+						<label for="drink">Sprite</label><br>
+						<input type="radio" id="drink" name="drink" value="lemon">
+						<label for="drink">Lemonade</label><br>
+					<select name="drink" id="drink" size="1">
+						<option value="small">Small</option>
+						<option value="medium">Medium</option>
+						<option value="large">Large</option>
+						</select><br>
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="quantity" min="1" max="10">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="deliver">MODE OF DELIVERY:</td>
+				<td>
+					<input type="radio" id="mod" name="delivery" value="deliver">
+					<label for="deliver">Home Delivery</label><br>
+					<input type="radio" id="mod" name="delivery" value="deliver">
+					<label for="deliver">Pick-Up</label><br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="feedback">Your feedback helps <br>us improve our form</label></td>
+				<td>
+					<textarea id="feedback" name="feedback" rows="3" cols="33"></textarea>
+				</td>
+			</tr>
+		</tbody>
+		
+		<tfoot>
+			<tr>
+				<th><input type="submit" id="btn1" value="Submit Form"></th>
+				<th><input type="reset" id="btn1" value="Clear Form"></th>
+			</tr>	
+		</tfoot>
+	</table>
+</body>
+</html>
